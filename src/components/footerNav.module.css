@@ -1,0 +1,33 @@
+.footernav {
+    margin: 1rem auto;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 960px;
+  }
+  
+  .footernav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footernav ul ul {
+    flex-direction: column;
+  }
+  
+  .footernav li {
+    list-style-type: none;
+  }
+  
+  .footernav a {
+    padding: 0.3rem 1rem;
+    display: block;
+    color: black;
+    border: 1px solid hsla(0, 0%, 100%, 0);
+  }
+  
+  .footernav a:hover,
+  .footernav a:focus {
+    border-color: rgb(0, 0, 0);
+  }
+  
