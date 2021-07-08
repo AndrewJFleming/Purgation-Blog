@@ -4,6 +4,7 @@
  import { FlatListToHierarchical } from "../utils/FlatListToHierarchical"
  
  import * as style from "./mainNav.module.css"
+ import "./layout.css"
 
  const MenuLoop = ({ menuItems }) => {
    return (

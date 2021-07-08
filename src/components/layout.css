@@ -639,3 +639,19 @@ pre tt:after {
     margin: 0px;
   }
 }
+
+nav .has-submenu > ul a {
+  display: none;
+}
+nav .has-submenu > ul  {
+  background-color: #041402;
+  position: absolute;
+  z-index: 100;
+}
+nav .has-submenu > ul li  {
+  margin-bottom: 0;
+}
+
+nav .has-submenu:hover > ul a {
+  display: block;
+}
